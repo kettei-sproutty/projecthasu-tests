@@ -55,8 +55,8 @@ const MyApp: NextPage<AppProps> = ({ Component, pageProps }) => {
         <meta property='og:title' content='PWA App' />
         <meta property='og:description' content='Best PWA App in the world' />
         <meta property='og:site_name' content='PWA App' />
-        <meta property='og:url' content='https://yourdomain.com' />
-        <meta property='og:image' content='https://yourdomain.com/icons/apple-touch-icon.png' />
+        <meta property='og:url' content='https://www.projecthasu.com' />
+        <meta property='og:image' content='https://www.projecthasu.com/icons/favicon-192x192.png' />
 
         <title>Project Hasu</title>
       </Head>

@@ -18,8 +18,8 @@ yarn-debug.log*
 npm-debug.log*
 
 # PWA
-sw.*
-workbox-*
+sw.*.map
+workbox-*.map
 worker-*
 fallback-*
 precache.*
