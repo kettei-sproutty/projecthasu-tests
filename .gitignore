@@ -1,0 +1,34 @@
+# Node
+node_modules
+
+# Vercel
+.next
+build
+
+# Local ENV variables
+local.env
+local.development.env
+local.staging.env
+.env
+!dummy.env
+
+# Debug
+yarn-error.log*
+yarn-debug.log*
+npm-debug.log*
+
+# PWA
+sw.*
+workbox-*
+worker-*
+fallback-*
+precache.*
+
+# Misc
+.DS_Store
+
+# Cache
+.eslintcache
+
+# Testing
+coverage
