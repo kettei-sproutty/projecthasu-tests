@@ -4,7 +4,8 @@
   "license": "MIT",
   "main": "components/index.tsx",
   "scripts": {
-    "dev": "start-storybook -p 6006"
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
