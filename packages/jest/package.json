@@ -1,0 +1,11 @@
+{
+  "name": "@hasu/jest",
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "4.6.3",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^13.0.0"
+  }
+}

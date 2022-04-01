@@ -1,4 +1,5 @@
 {
+  "prettier.configPath": "packages/linter/prettier.config.js",
   "css.customData": [".vscode/tailwind.customData.json"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,

@@ -1,0 +1,10 @@
+# Vercel
+.next
+build
+
+# PWA
+sw.*.map
+workbox-*.map
+worker-*
+fallback-*
+precache.*
