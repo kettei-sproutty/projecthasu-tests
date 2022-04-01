@@ -1,6 +1,8 @@
 :root,
 ::before,
 ::after {
+  --space-cadet: #323254;
+  --ultra-red: #fc6f7b;
   --blue: #2882ef;
   --lightblue: #2882ef;
   --violet: #8524c3;

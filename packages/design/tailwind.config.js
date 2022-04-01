@@ -3,6 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'ultra-red': 'var(--ultra-red)',
+        'space-cadet': 'var(--space-cadet)',
         'accents-0': 'var(--accents-0)',
         'accents-1': 'var(--accents-1)',
         'accents-2': 'var(--accents-2)',
