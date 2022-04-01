@@ -46,10 +46,10 @@ const MyApp: NextPage<AppProps> = ({ Component, pageProps }) => {
         <meta name='theme-color' content='#ffffff'></meta>
 
         <meta name='twitter:card' content='summary' />
-        <meta name='twitter:url' content='https://yourdomain.com' />
+        <meta name='twitter:url' content='https://www.projecthasu.com' />
         <meta name='twitter:title' content='PWA App' />
         <meta name='twitter:description' content='Best PWA App in the world' />
-        <meta name='twitter:image' content='https://yourdomain.com/icons/android-chrome-192x192.png' />
+        <meta name='twitter:image' content='https://www.projecthasu.com/icons/android-chrome-192x192.png' />
         <meta name='twitter:creator' content='@DavidWShadow' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='PWA App' />

@@ -1,5 +1,5 @@
 import React from 'react'
-import useUser, { logoutUser, useUpdateUser } from '../hooks/user'
+import useUser from '../hooks/user'
 import { useForm } from 'react-hook-form'
 import useTranslation from 'next-translate/useTranslation'
 import Input from '../components/input/input'
@@ -11,8 +11,7 @@ type UserFormType = {
 }
 
 const HomePage: NextPage = () => {
-  const { user, isLoading } = useUser()
-  const updateUser = useUpdateUser()
+  const { user, isLoading, updateUser, logoutUser } = useUser()
   const { t } = useTranslation()
 
   const { register, handleSubmit } = useForm<UserFormType>()
@@ -22,10 +21,6 @@ const HomePage: NextPage = () => {
       document.cookie = `auth=${data.username}`
       await updateUser()
     }
-  }
-
-  const handleLogout = async () => {
-    return logoutUser().finally(updateUser)
   }
 
   if (isLoading) {
@@ -38,7 +33,7 @@ const HomePage: NextPage = () => {
         <p>
           {t('common:welcome')}, {user.username}
         </p>
-        <button className='px-4 py2' onClick={handleLogout}>
+        <button className='px-4 py2' onClick={logoutUser}>
           {t('common:logout')}
         </button>
       </div>

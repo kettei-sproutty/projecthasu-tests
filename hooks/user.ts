@@ -4,22 +4,24 @@ import axios from 'axios'
 
 const useUser = () => {
   const { data, error } = useSWR('/api/auth', fetcher)
+  const { mutate } = useSWRConfig()
+
+  const updateUser = () => {
+    return mutate('/api/auth')
+  }
+
+  const logoutUser = async () => {
+    return axios.post('/api/auth', { logout: true }).finally(updateUser)
+  }
 
   return {
     user: data,
     error,
+    updateUser,
+    logoutUser,
     isLoading: !data && !error,
   }
 }
-
-export const useUpdateUser = () => {
-  const { mutate } = useSWRConfig()
-
-  return () => mutate('/api/auth')
-}
-
-export const logoutUser = () => {
-  return axios.post('/api/auth', { logout: true })
-}
+export const logoutUser = () => {}
 
 export default useUser
