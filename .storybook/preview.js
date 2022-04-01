@@ -1,3 +1,4 @@
+import { themes } from '@storybook/theming'
 import * as NextImage from 'next/image'
 import '../styles/globals.css'
 
@@ -10,6 +11,9 @@ Object.defineProperty(NextImage, 'default', {
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
+  docs: {
+    theme: themes.light,
+  },
   controls: {
     matchers: {
       color: /(background|color)$/i,
