@@ -13,6 +13,10 @@
     "@tailwindcss/typography": "^0.5.2"
   },
   "devDependencies": {
+    "postcss": "8.4.12",
+    "clsx": "^1.1.1",
+    "storybook-css-modules-preset": "^1.1.1",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addon-actions": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-interactions": "^6.4.19",

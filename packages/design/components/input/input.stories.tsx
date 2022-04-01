@@ -9,5 +9,8 @@ export default {
 
 const Template: ComponentStory<typeof Component> = args => <Component {...args} />
 
-export const Classic = Template.bind({})
-Classic.args = { name: 'classic', label: 'Classic' }
+export const Simple = Template.bind({})
+Simple.args = { name: 'field', label: 'Simple' }
+
+export const Error = Template.bind({})
+Error.args = { name: 'field', label: 'Error', error: { type: 'required', message: 'This field is required' } }
