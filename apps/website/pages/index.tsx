@@ -2,8 +2,7 @@ import React from 'react'
 import useUser from '../hooks/user'
 import { useForm } from 'react-hook-form'
 import useTranslation from 'next-translate/useTranslation'
-import Button from '@/components/button'
-import Input from '@/components/input'
+import { Button, Input } from '@hasu/design'
 
 import type { NextPage } from 'next'
 

@@ -1,0 +1,4 @@
+{
+  "extends": "@hasu/tsconfig/react.json",
+  "exclude": ["dist", "build", "node_modules"]
+}
