@@ -32,3 +32,6 @@ precache.*
 
 # Testing
 coverage
+
+# Storybook
+storybook-static
