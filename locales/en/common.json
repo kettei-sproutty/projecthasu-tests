@@ -1,5 +1,6 @@
 {
   "welcome": "Welcome",
   "login": "Login",
-  "logout": "Logout"
+  "logout": "Logout",
+  "field-required": "{{name}} is required."
 }

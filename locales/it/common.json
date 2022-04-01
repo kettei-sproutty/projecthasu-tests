@@ -1,5 +1,6 @@
 {
   "welcome": "Benvenuto",
   "login": "Effettua l'accesso",
-  "logout": "Disconnettiti"
+  "logout": "Disconnettiti",
+  "field-required": "Il campo {{name}} è obbligatorio"
 }
