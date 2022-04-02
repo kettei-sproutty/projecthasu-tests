@@ -1,0 +1,14 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks'
+import colors from './colors.ts'
+
+<Meta title='Design/Colors' />
+
+<ColorPalette>
+  {Object.entries(colors).map(([palette, colors]) => {
+    const gradients = Object.entries(colors).reduce((prev, current) => {
+      const [key, value] = current
+      return [...prev, { [key.replace(`--${palette}-`, '')]: value }]
+    }, [])
+    return <ColorItem title={palette.toUpperCase()} subtitle={`var(--${palette})`} colors={colors} />
+  })}
+</ColorPalette>

@@ -9,7 +9,7 @@
     @apply block text-sm font-medium not-sr-only;
 
     &--error {
-      @apply text-ultra-red;
+      @apply text-red-400;
     }
 
     &--success {
@@ -18,10 +18,10 @@
   }
 
   &-error {
-    @apply border-ultra-red focus:ring-ultra-red focus:border-ultra-red;
+    @apply border-red-400 focus:ring-red-400 focus:border-red-400;
 
     &__message {
-      @apply mb-1 text-xs text-ultra-red;
+      @apply mb-1 text-xs text-red-400;
     }
   }
 }
