@@ -7,7 +7,7 @@
 
 <p align="center">
   <a aria-label="Design System" href="https://projecthasu.com">
-    <img alt="" src="https://therealsujitk-vercel-badge.vercel.app/?app=projecthasu-tests">
+    <img alt="" src="https://therealsujitk-vercel-badge.vercel.app/?app=project-hasu">
   </a>
   <a aria-label="Tests" href="https://github.com/kettei-sproutty/projecthasu-tests/actions/workflows/test.yml/">
     <img alt="" src="https://github.com/kettei-sproutty/projecthasu-tests/actions/workflows/test.yml/badge.svg">
