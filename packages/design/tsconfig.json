@@ -1,4 +1,7 @@
 {
   "extends": "@hasu/tsconfig/react.json",
-  "exclude": ["dist", "build", "node_modules"]
+  "compilerOptions": {
+    "baseUrl": "./"
+  },
+  "exclude": ["dist", "build", "node_modules", ".turbo", "coverage"]
 }

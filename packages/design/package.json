@@ -5,7 +5,8 @@
   "main": "components/index.tsx",
   "scripts": {
     "dev": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "test": "jest --ci --coverage"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",

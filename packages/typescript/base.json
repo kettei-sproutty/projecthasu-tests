@@ -1,5 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
   "compilerOptions": {
     "incremental": true,
     "composite": true,
@@ -18,10 +19,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
-    "compilerOptions": {
-      "paths": {
-        "@/components/*": ["@hasu/components/*"]
-      }
+    "paths": {
+      "@/components/*": ["@hasu/components/*"]
     }
   },
   "include": ["./typings/**/*.d.ts"]
