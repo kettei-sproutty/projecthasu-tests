@@ -5,30 +5,55 @@ module.exports = {
     extend: {
       colors: {
         black: 'var(--black)',
+
         primary: {
           lighter: 'var(--primary-lighter)',
           light: 'var(--primary-light)',
           default: 'var(--primary-default)',
           dark: 'var(--primary-dark)',
         },
+
+        secondary: {
+          lighter: 'var(--secondary-lighter)',
+          light: 'var(--secondary-light)',
+          default: 'var(--secondary-default)',
+          dark: 'var(--secondary-dark)',
+        },
+
         error: {
           lighter: 'var(--error-lighter)',
           light: 'var(--error-light)',
           default: 'var(--error-default)',
           dark: 'var(--error-dark)',
         },
+
         warning: {
           lighter: 'var(--warning-lighter)',
           light: 'var(--warning-light)',
           default: 'var(--warning-default)',
           dark: 'var(--warning-dark)',
         },
+
         success: {
           lighter: 'var(--success-lighter)',
           light: 'var(--success-light)',
           default: 'var(--success-default)',
           dark: 'var(--success-dark)',
         },
+
+        gray: {
+          50: 'var(--gray-50)',
+          100: 'var(--gray-100)',
+          200: 'var(--gray-200)',
+          300: 'var(--gray-300)',
+          400: 'var(--gray-400)',
+          500: 'var(--gray-400)',
+          600: 'var(--gray-600)',
+          700: 'var(--gray-700)',
+          800: 'var(--gray-800)',
+          900: 'var(--gray-900)',
+        },
+
         cadet: {
           50: 'var(--cadet-50)',
           100: 'var(--cadet-100)',
@@ -41,42 +66,7 @@ module.exports = {
           800: 'var(--cadet-800)',
           900: 'var(--cadet-900)',
         },
-        red: {
-          50: 'var(--red-50)',
-          100: 'var(--red-100)',
-          200: 'var(--red-200)',
-          300: 'var(--red-300)',
-          400: 'var(--red-400)',
-          500: 'var(--red-500)',
-          600: 'var(--red-600)',
-          700: 'var(--red-700)',
-          800: 'var(--red-800)',
-          900: 'var(--red-900)',
-        },
-        pink: {
-          50: 'var(--pink-50)',
-          100: 'var(--pink-100)',
-          200: 'var(--pink-200)',
-          300: 'var(--pink-300)',
-          400: 'var(--pink-400)',
-          500: 'var(--pink-500)',
-          600: 'var(--pink-600)',
-          700: 'var(--pink-700)',
-          800: 'var(--pink-800)',
-          900: 'var(--pink-900)',
-        },
-        yellow: {
-          50: 'var(--yellow-50)',
-          100: 'var(--yellow-100)',
-          200: 'var(--yellow-200)',
-          300: 'var(--yellow-300)',
-          400: 'var(--yellow-400)',
-          500: 'var(--yellow-500)',
-          600: 'var(--yellow-600)',
-          700: 'var(--yellow-700)',
-          800: 'var(--yellow-800)',
-          900: 'var(--yellow-900)',
-        },
+
         brown: {
           50: 'var(-brown-50)',
           100: 'var(--brown-100)',
@@ -89,20 +79,6 @@ module.exports = {
           800: 'var(--brown-800)',
           900: 'var(--brown-900)',
         },
-        'accents-0': 'var(--accents-0)',
-        'accents-1': 'var(--accents-1)',
-        'accents-2': 'var(--accents-2)',
-        'accents-3': 'var(--accents-3)',
-        'accents-4': 'var(--accents-4)',
-        'accents-5': 'var(--accents-5)',
-        'accents-6': 'var(--accents-6)',
-        'accents-7': 'var(--accents-7)',
-        'accents-8': 'var(--accents-8)',
-        'accents-9': 'var(--accents-9)',
-        'success-lighter': 'var(--geist-success-lighter)',
-        'success-light': 'var(--geist-success-light)',
-        success: 'var(--geist-success-lighter)',
-        'success-dark': 'var(--geist-success-dark)',
       },
     },
   },
