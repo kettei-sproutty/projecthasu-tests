@@ -13,7 +13,7 @@
     }
 
     &--success {
-      @apply text-gray-700;
+      @apply text-gray-700 dark:text-red-500;
     }
   }
 

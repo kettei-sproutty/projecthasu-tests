@@ -23,7 +23,7 @@ module.exports = {
           200: 'var(--red-200)',
           300: 'var(--red-300)',
           400: 'var(--red-400)',
-          500: 'var(--red-400)',
+          500: 'var(--red-500)',
           600: 'var(--red-600)',
           700: 'var(--red-700)',
           800: 'var(--red-800)',

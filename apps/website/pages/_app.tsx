@@ -1,10 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
+import { ThemeProvider } from 'next-themes'
 import type { NextPage } from 'next'
 import type { AppProps } from 'next/app'
 
 import '@hasu/design/styles/globals.css'
-import { ThemeProvider } from 'next-themes'
 
 const MyApp: NextPage<AppProps> = ({ Component, pageProps }) => {
   return (
@@ -61,7 +61,7 @@ const MyApp: NextPage<AppProps> = ({ Component, pageProps }) => {
 
         <title>Project Hasu</title>
       </Head>
-      <ThemeProvider forcedTheme={(Component as any).theme || undefined} attribute='class'>
+      <ThemeProvider enableSystem={true} attribute='class'>
         <Component {...pageProps} />
       </ThemeProvider>
     </React.Fragment>
