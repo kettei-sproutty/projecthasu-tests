@@ -19,6 +19,17 @@
 - [Website](https://projecthasu.com)
 - [Design System](https://design.projecthasu.com/?path=/story/input--classic)
 
+## Utils
+
+This projects uses yarn workspaces and turborepo
+
+Usefull commands
+| Name | Command |
+|-------------------------------|---------------------------------------------------|
+| Install package dependecy | yarn workspace @hasu/package add (-D) packageName |
+| Install root dependecy | yarn add -(D)W packageName |
+| Run script from every package | turno run commandName (--parallel) |
+
 ## Authors
 
 - Alessio Marchi ([@kettei-sproutty](https://github.com/kettei-sproutty))
