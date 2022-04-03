@@ -4,6 +4,7 @@ import type { NextPage } from 'next'
 import type { AppProps } from 'next/app'
 
 import '@hasu/design/styles/globals.css'
+import { ThemeProvider } from 'next-themes'
 
 const MyApp: NextPage<AppProps> = ({ Component, pageProps }) => {
   return (
@@ -60,7 +61,9 @@ const MyApp: NextPage<AppProps> = ({ Component, pageProps }) => {
 
         <title>Project Hasu</title>
       </Head>
-      <Component {...pageProps} />
+      <ThemeProvider forcedTheme={(Component as any).theme || undefined} attribute='class'>
+        <Component {...pageProps} />
+      </ThemeProvider>
     </React.Fragment>
   )
 }
