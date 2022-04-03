@@ -16,7 +16,8 @@ const ThemePage: NextPage = () => {
   if (!mounted) return null
 
   return (
-    <div>
+    <div className='container mx-auto'>
+      <img src='/icons/favicon-310x310.png'></img>
       <p>Current theme: {resolvedTheme}</p>
       <Button onClick={changeTheme}>Change Theme</Button>
     </div>

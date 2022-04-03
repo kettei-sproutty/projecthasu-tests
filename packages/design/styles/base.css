@@ -2,15 +2,36 @@
 ::before,
 ::after {
   --font-sans: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+  --background: #eaedf1;
 
   --black: #050502;
+
+  --primary-lighter: #a2a2c8;
+  --primary-light: #7272ab;
+  --primary-default: #4e4e83;
+  --primary-dark: #323254;
+
+  --error-lighter: #f7d4d6;
+  --error-light: #ff1a1a;
+  --error-default: #e00;
+  --error-dark: #c50000;
+
+  --warning-lighter: #fde6aa;
+  --warning-light: #fdd87d;
+  --warning-default: #fbbf24;
+  --warning-dark: #e1a304;
+
+  --success-lighter: #85e5c2;
+  --success-light: #5cdcad;
+  --success-default: #25ac7b;
+  --success-dark: #1c825d;
 
   --cadet-50: #e9e9f2;
   --cadet-100: #cfcfe2;
   --cadet-200: #a2a2c8;
   --cadet-300: #7272ab;
   --cadet-400: #4e4e83;
-  --cadet-400: #323254;
+  --cadet-500: #323254;
   --cadet-600: #282843;
   --cadet-700: #1e1e33;
   --cadet-800: #151523;
@@ -21,7 +42,7 @@
   --red-200: #fec3c8;
   --red-300: #fdaab1;
   --red-400: #fd8c95;
-  --red-400: #fc6f7b;
+  --red-500: #fc6f7b;
   --red-600: #fb283a;
   --red-700: #d70416;
   --red-800: #8c030e;
@@ -59,4 +80,9 @@
   --brown-700: #4b2625;
   --brown-800: #3d1f1e;
   --brown-900: #291514;
+}
+
+html.dark,
+html.dark > body {
+  --background: #1a2028;
 }

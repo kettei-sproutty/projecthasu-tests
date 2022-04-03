@@ -5,6 +5,30 @@ module.exports = {
     extend: {
       colors: {
         black: 'var(--black)',
+        primary: {
+          lighter: 'var(--primary-lighter)',
+          light: 'var(--primary-light)',
+          default: 'var(--primary-default)',
+          dark: 'var(--primary-dark)',
+        },
+        error: {
+          lighter: 'var(--error-lighter)',
+          light: 'var(--error-light)',
+          default: 'var(--error-default)',
+          dark: 'var(--error-dark)',
+        },
+        warning: {
+          lighter: 'var(--warning-lighter)',
+          light: 'var(--warning-light)',
+          default: 'var(--warning-default)',
+          dark: 'var(--warning-dark)',
+        },
+        success: {
+          lighter: 'var(--success-lighter)',
+          light: 'var(--success-light)',
+          default: 'var(--success-default)',
+          dark: 'var(--success-dark)',
+        },
         cadet: {
           50: 'var(--cadet-50)',
           100: 'var(--cadet-100)',

@@ -1,3 +1,15 @@
 .button {
-  @apply inline-flex hover:bg-cadet-400 focus:ring-2 focus:ring-cadet-400 bg-orange-500 justify-center mt-1 py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white focus:outline-none dark:bg-orange-900;
+  @apply inline-flex justify-center mt-1 py-2 px-4 shadow-sm text-sm font-medium rounded-md focus:outline-none;
+
+  &--primary {
+    @apply bg-primary-default focus:ring-2 focus:ring-primary-default focus:ring-offset-2 ring-offset-inherit text-white;
+
+    &:disabled {
+      @apply bg-primary-light cursor-not-allowed text-white;
+    }
+  }
+
+  &--large {
+    @apply py-4 px-8;
+  }
 }

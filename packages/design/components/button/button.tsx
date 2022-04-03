@@ -12,15 +12,14 @@ export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
    * should the button me large?
    */
   large?: boolean
-  /**
-   * Which version should the button use?
-   * @default 'contained'
-   */
-  version?: 'outlined' | 'underline' | 'contained' | 'text'
 }
 
-const Button: FC<ButtonProps> = ({ primary = true, large = true, children, className, ...props }) => {
-  const buttonClasses = clsx(styles.button, className)
+const Button: FC<ButtonProps> = ({ primary = true, large = false, children, className, ...props }) => {
+  const buttonClasses = clsx(styles.button, {
+    [styles['button--primary']]: primary,
+    [styles['button--secondary']]: !primary,
+    [styles['button--large']]: large,
+  })
 
   return (
     <button className={buttonClasses} {...props}>
